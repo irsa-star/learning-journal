@@ -1,20 +1,69 @@
-# 🚀 My Learning Journal
+# 📚 Learning Journal - Reverse Engineering
 
-Selamat datang di jurnal belajar saya! Di sini saya mendokumentasikan perjalanan belajar, tantangan yang dihadapi, dan hal-hal baru yang saya pelajari setiap harinya.
+Selamat datang di repository **Learning Journal - Reverse Engineering**.
 
----
+Repository ini merupakan dokumentasi perjalanan belajar saya selama mengikuti mata kuliah Reverse Engineering pada semester ini. Seluruh catatan dibuat sebagai bentuk refleksi terhadap materi yang telah dipelajari setiap minggu, mulai dari konsep dasar hingga praktik analisis executable menggunakan berbagai tools.
 
-## 🎯 Target Belajar & Progress
-* [ ] Menguasai dasar-dasar Git & GitHub
-* [ ] Mempelajari [Sebutkan teknologi/bahasa pemrograman yang mau kamu pelajari]
-* [ ] Konsisten menulis jurnal minimal seminggu sekali
+## 🎯 Tujuan Repository
 
----
+Repository ini dibuat untuk:
 
-## 📅 Catatan Harian / Mingguan
+- Mendokumentasikan proses belajar secara bertahap.
+- Menjadi portofolio pembelajaran Reverse Engineering.
+- Menyimpan catatan mengenai tools, konsep, serta pengalaman selama praktikum.
+- Menunjukkan perkembangan kemampuan analisis binary dari minggu ke minggu.
 
-### 🟢 Minggu 1: Memulai Jurnal Belajar
-* **Tanggal:** 24 Juni 2026
-* **Apa yang dipelajari:** Berhasil membuat repositori publik `learning-journal` di GitHub dan memahami pentingnya dokumentasi proses belajar.
-* **Tantangan:** Menentukan format jurnal yang rapi.
-* **Solusi:** Menggunakan format Markdown agar mudah dibaca.
+## 📖 Materi yang Dipelajari
+
+Beberapa materi yang dipelajari selama semester ini antara lain:
+
+- Pengenalan Reverse Engineering
+- Struktur Executable Windows (Portable Executable)
+- Detect It Easy (DIE)
+- Strings Analysis
+- Import Table
+- Ghidra
+- x64dbg
+- CrackMe Challenge
+- Static Analysis
+- Dynamic Analysis
+- Dokumentasi Hasil Analisis
+
+## 🛠 Tools
+
+- Ghidra
+- x64dbg
+- Detect It Easy (DIE)
+- PEStudio
+- Strings (Sysinternals)
+- VirusTotal (Informasi Hash)
+
+## 📅 Isi Repository
+
+```
+learning-journal/
+
+README.md
+
+week-01.md
+
+week-02.md
+
+week-03.md
+
+week-04.md
+
+week-05.md
+
+week-06.md
+
+week-07.md
+
+week-08.md
+```
+
+## ⚠ Disclaimer
+
+Seluruh aktivitas Reverse Engineering pada repository ini dilakukan hanya untuk tujuan pembelajaran dan penelitian akademik. Seluruh sample yang digunakan berasal dari sumber yang diizinkan oleh dosen maupun website challenge Reverse Engineering.
+
+Repository ini tidak bertujuan untuk mendistribusikan malware maupun melakukan aktivitas ilegal.
