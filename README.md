@@ -14,7 +14,7 @@ Selamat datang di jurnal belajar saya! Di sini saya mendokumentasikan perjalanan
 ## 📅 Catatan Harian / Mingguan
 
 ### 🟢 Minggu 1: Memulai Jurnal Belajar
-* **Tanggal:** 8 Juli 2026
+* **Tanggal:** 24 Juni 2026
 * **Apa yang dipelajari:** Berhasil membuat repositori publik `learning-journal` di GitHub dan memahami pentingnya dokumentasi proses belajar.
 * **Tantangan:** Menentukan format jurnal yang rapi.
 * **Solusi:** Menggunakan format Markdown agar mudah dibaca.
