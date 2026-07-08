@@ -1,1 +1,13 @@
+# Laboratorium Analisis Dinamis (Dynamic Analysis)
 
+Bagian ini digunakan untuk mendokumentasikan proses analisis biner secara aktif dengan cara mengeksekusi program di dalam lingkungan yang terisolasi (Virtual Machine) untuk memantau perilakunya secara langsung.
+
+## Perkakas (Tools) yang Digunakan
+- **x64dbg / x32dbg:** Emulator debugging tingkat ring-3 untuk melakukan pencarian breakpoint, melihat isi register, dan melakukan *patching* instruksi assembly.
+- **Process Monitor (ProcMon):** Untuk memantau aktivitas sistem file, registri Windows, dan aktivitas proses secara real-time.
+- **Wireshark:** Digunakan untuk mengendus (*sniffing*) paket data jaringan apabila biner mencoba melakukan komunikasi keluar (C2 server).
+
+## Dasar Teori & Pembelajaran
+1. **Instruksi Percabangan (Branching):** Memahami pengaruh register flag (seperti *Zero Flag* / ZF) pasca eksekusi fungsi komparasi string, serta cara kerja instruksi `JZ` (Jump if Zero) atau `JNZ`.
+2. **Software Breakpoint:** Memasang breakpoint (`INT 3` / `0xCC`) pada memori atau fungsi API tertentu untuk menghentikan laju eksekusi tepat sebelum logika pemeriksaan password berjalan.
+3. **Analisis Perilaku (Behavioral Analysis):** Mengamati perubahan nilai pada memori lokal (Stack) saat pengguna memasukkan input acak ke dalam program.
