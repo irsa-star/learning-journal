@@ -38,30 +38,6 @@ Beberapa materi yang dipelajari selama semester ini antara lain:
 - Strings (Sysinternals)
 - VirusTotal (Informasi Hash)
 
-## 📅 Isi Repository
-
-```
-learning-journal/
-
-README.md
-
-week-01.md
-
-week-02.md
-
-week-03.md
-
-week-04.md
-
-week-05.md
-
-week-06.md
-
-week-07.md
-
-week-08.md
-```
-
 ## ⚠ Disclaimer
 
 Seluruh aktivitas Reverse Engineering pada repository ini dilakukan hanya untuk tujuan pembelajaran dan penelitian akademik. Seluruh sample yang digunakan berasal dari sumber yang diizinkan oleh dosen maupun website challenge Reverse Engineering.
