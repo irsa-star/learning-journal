@@ -1,1 +1,13 @@
+# Laboratorium Analisis Statis (Static Analysis)
 
+Bagian ini mendokumentasikan proses belajar dan temuan saya selama melakukan analisis statis pada berkas biner Portable Executable (PE) tanpa mengeksekusi program di dalam memori.
+
+## Perkakas (Tools) yang Digunakan
+- **Detect It Easy (DIE):** Untuk memeriksa arsitektur biner, jenis kompilator, dan mendeteksi adanya *packer*.
+- **Ghidra / IDA Pro:** Untuk melakukan dekompilasi kode mesin menjadi kode sumber tingkat tinggi (*pseudo-code*) C/C++.
+- **PEview / PE-bear:** Untuk membedah isi komponen PE Header dan seksi direktori data.
+
+## Dasar Teori & Pembelajaran
+1. **Analisis String (String Extraction):** Mencari string literal sensitif seperti password hardcoded atau pesan error yang disimpan pada seksi `.rdata`.
+2. **Import Address Table (IAT):** Mengidentifikasi pustaka dinamis (DLL) dan fungsi sistem Windows API (seperti `IsDebuggerPresent`, `GetProcAddress`) yang dipanggil oleh aplikasi untuk menebak kapabilitas program.
+3. **Pembedahan Seksi PE:** Memahami fungsi dari seksi `.text` (kode), `.data` (variabel global), dan `.rdata` (data konstan).
